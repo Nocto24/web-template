@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(7, 24, 7);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    border: 1px solid #333;
+    border-radius: 40px;
+    background-color: rgba(14, 48, 14, 0.377);
+    ;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-weight: 50;
+}
+
+.menu a:hover {
+    color: rgb(197, 197, 59);
+}
+
+.menu li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.logo>h1 {
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.logo>p {
+    opacity: 0.6;
+    color: rgb(207, 207, 81);
+    padding-left: 25px;
+}
+
+.line {
+    background-color: rgb(189, 250, 98);
+    height: 10px;
+}
+
+/* Banner */
+.banner {
+    background-color: rgb(63, 62, 62);
+}
+
+.banner-con {
+    display: flex;
+}
+
+.banner-img img {
+    width: 100%;
+    border: 10px solid white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.banner-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.banner-info h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #fff;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-info p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgba(155, 175, 117, 0.63);
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0.3rem;
+    background-color: rgba(161, 211, 87, 0.849);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Content */
+
+.blog-title{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.right-top-con{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-top: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.right-bottom-con{  
+    grid-column: 2/1;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.right-bottom-con li{
+    list-style-type: square;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.right-bottom-con p{
+    margin-top: 64px;
+}
+/* NEWS */
+.news-con{
+    grid-area: 1 / 2 / span 2 / 2;
+    margin-left: 150px;
+    width: 50%;
+}
+.news-con h4{
+    border: 1px solid black;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news-item-con{
+background-color: whitesmoke;
+clear: both;
+padding: 20px;
+
+}
+
+.news-img img{
+    width: 100px;
+    height:100px ;
+    border: 7px solid #fff;
+    float: left;
+    margin-right: 1rem;
+}
+.date{
+    color: rgb(172, 172, 172);
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.news-info>h5{
+    font-size: 17px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.news-info>.desc{
+    color: #727272;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+.line-2{
+    background-color: rgb(189, 250, 98);
+    height: 10px;
+    margin-top: 50px;
+}
+
+.footer-con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(7, 24, 7);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-item{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.footer-item a{
+    padding: 6px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 11px;
+    background-color: rgba(14, 48, 14, 0.377);
+}
+
+.footer-item a:hover{
+    color: rgb(197, 197, 59);
+}
+/* Footer Menu */
+.footer-menu{
+    list-style: none;
+    padding-top: 10px;
+}
+.footer-menu li{
+    padding: 5px;
+    color: grey;
+}
+footer{
+    text-align: center;
+    color: beige;
+    background-color: rgb(7, 24, 7);
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer>p{
+    opacity: 0.7;
+}
+
